@@ -228,6 +228,7 @@ function getgrades100() {
     case "97":
     case "98.5":
     case "98":
+    case "99":
     case "99.5":
     case "100":
      {
