@@ -5,8 +5,8 @@
 
 //JavaScript Code for marks out of 80
 //Science
-function getgrades() {
-  var marks = document.getElementById("marksin1").value;
+function getgrades80() {
+  var marks = document.getElementById("marksin180").value;
   switch(marks)
 {
     case "0":
@@ -19,7 +19,7 @@ function getgrades() {
     case "3.5":
     case "4":
        {
-        document.getElementById("grades").innerHTML="Your Grade is E1";
+        document.getElementById("grades80").innerHTML="Your Grade is E1";
         break;
        }
     case "4.5":
@@ -27,7 +27,7 @@ function getgrades() {
     case "5.5":
     case "6":
      {
-      document.getElementById("grades").innerHTML="Your Grade is E1";
+      document.getElementById("grades80").innerHTML="Your Grade is E1";
       break;
      }
     case "6.5":
@@ -35,7 +35,7 @@ function getgrades() {
     case "7.5":
     case "8":
     {
-     document.getElementById("grades").innerHTML="Your Grade is D";
+     document.getElementById("grades80").innerHTML="Your Grade is D";
       break;
     }
     case "8.5":
@@ -43,7 +43,7 @@ function getgrades() {
     case "9.5":
     case "10":
      {
-      document.getElementById("grades").innerHTML="Your Grade is C2";
+      document.getElementById("grades80").innerHTML="Your Grade is C2";
       break;
      }
     case "10.5":
@@ -51,7 +51,7 @@ function getgrades() {
     case "11.5":
     case "12":
      {
-      document.getElementById("grades").innerHTML="Your Grade is C1";
+      document.getElementById("grades80").innerHTML="Your Grade is C1";
       break;
      }
     case "12.5":
@@ -59,7 +59,7 @@ function getgrades() {
     case "13.5":
     case "14":
      {
-      document.getElementById("grades").innerHTML= "Your Grade is B2";
+      document.getElementById("grades80").innerHTML= "Your Grade is B2";
       break;
      }
     case "14.5":
@@ -67,7 +67,7 @@ function getgrades() {
     case "15.5":
     case "16":
     {
-      document.getElementById("grades").innerHTML="Your Grade is B1";
+      document.getElementById("grades80").innerHTML="Your Grade is B1";
       break;
     }
     case "16.5":
@@ -75,7 +75,7 @@ function getgrades() {
     case "17.5":
     case "18":
      {
-      document.getElementById("grades").innerHTML="Your Grade is A2";
+      document.getElementById("grades80").innerHTML="Your Grade is A2";
       break;
       }
     case "18.5":
@@ -83,13 +83,13 @@ function getgrades() {
     case "19.5":
     case "20":
      {
-      document.getElementById("grades").innerHTML= "Your Grade is A1";
+      document.getElementById("grades80").innerHTML= "Your Grade is A1";
       break;
      }
 
     default:
      {
-      document.getElementById("grades").innerHTML="Invalid Input !!!!";
+      document.getElementById("grades80").innerHTML="Invalid Input !!!!";
       break;
     }
 }

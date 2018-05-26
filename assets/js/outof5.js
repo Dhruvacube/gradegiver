@@ -5,455 +5,310 @@
 
 //JavaScript Code for marks out of 5
 //Science
-function getgrades() {
-  var marks = document.getElementById("marksin1").value;
+function getgrades51() {
+  var marks = document.getElementById("marksin15").value;
   switch(marks)
 {
     case "0":
     case "0.5":
     case "1":
-    case "1.5":
-    case "2":
-    case "2.5":
-    case "3":
-    case "3.5":
-    case "4":
        {
-        document.getElementById("grades").innerHTML="Your Grade is E1";
+        document.getElementById("grades5").innerHTML="Your Grade is E2";
         break;
        }
+    case "1.6":
+    case "1.5":
+     {
+      document.getElementById("grades5").innerHTML="Your Grade is E1";
+      break;
+     }
+    case "2":
+    {
+     document.getElementById("grades5").innerHTML="Your Grade is D";
+      break;
+    }
+    case "2.5":
+     {
+      document.getElementById("grades5").innerHTML="Your Grade is C2";
+      break;
+     }
+    case "3":
+     {
+      document.getElementById("grades5").innerHTML="Your Grade is C1";
+      break;
+     }
+    case "3.5":
+     {
+      document.getElementById("grades5").innerHTML= "Your Grade is B2";
+      break;
+     }
+    case "4":
+    {
+      document.getElementById("grades5").innerHTML="Your Grade is B1";
+      break;
+    }
     case "4.5":
-    case "5":
-    case "5.5":
-    case "6":
      {
-      document.getElementById("grades").innerHTML="Your Grade is E1";
-      break;
-     }
-    case "6.5":
-    case "7":
-    case "7.5":
-    case "8":
-    {
-     document.getElementById("grades").innerHTML="Your Grade is D";
-      break;
-    }
-    case "8.5":
-    case "9":
-    case "9.5":
-    case "10":
-     {
-      document.getElementById("grades").innerHTML="Your Grade is C2";
-      break;
-     }
-    case "10.5":
-    case "11":
-    case "11.5":
-    case "12":
-     {
-      document.getElementById("grades").innerHTML="Your Grade is C1";
-      break;
-     }
-    case "12.5":
-    case "13":
-    case "13.5":
-    case "14":
-     {
-      document.getElementById("grades").innerHTML= "Your Grade is B2";
-      break;
-     }
-    case "14.5":
-    case "15":
-    case "15.5":
-    case "16":
-    {
-      document.getElementById("grades").innerHTML="Your Grade is B1";
-      break;
-    }
-    case "16.5":
-    case "17":
-    case "17.5":
-    case "18":
-     {
-      document.getElementById("grades").innerHTML="Your Grade is A2";
+      document.getElementById("grades5").innerHTML="Your Grade is A2";
       break;
       }
-    case "18.5":
-    case "19":
-    case "19.5":
-    case "20":
+    case "5":
      {
-      document.getElementById("grades").innerHTML= "Your Grade is A1";
+      document.getElementById("grades5").innerHTML= "Your Grade is A1";
       break;
      }
 
     default:
      {
-      document.getElementById("grades").innerHTML="Invalid Input !!!!";
+      document.getElementById("grades5").innerHTML="Invalid Input !!!!";
       break;
     }
 }
 }
  
 //Hindi
- function getgradesone() {
-  var marks = document.getElementById("marksin2").value;
+ function getgradesone52() {
+  var marks = document.getElementById("marksin25").value;
   switch(marks)
 {
     case "0":
     case "0.5":
     case "1":
-    case "1.5":
-    case "2":
-    case "2.5":
-    case "3":
-    case "3.5":
-    case "4":
        {
-        document.getElementById("grades1").innerHTML="Your Grade is E1";
+        document.getElementById("grades15").innerHTML="Your Grade is E2";
         break;
        }
+    case "1.5":
+    case "1.6":
+     {
+      document.getElementById("grades15").innerHTML="Your Grade is E1";
+      break;
+     }
+    case "2":
+    {
+     document.getElementById("grades15").innerHTML="Your Grade is D";
+      break;
+    }
+    case "2.5":
+     {
+      document.getElementById("grades15").innerHTML="Your Grade is C2";
+      break;
+     }
+    case "3":
+     {
+      document.getElementById("grades15").innerHTML="Your Grade is C1";
+      break;
+     }
+    case "3.5":
+     {
+      document.getElementById("grades15").innerHTML= "Your Grade is B2";
+      break;
+     }
+    case "4":
+    {
+      document.getElementById("grades15").innerHTML="Your Grade is B1";
+      break;
+    }
     case "4.5":
-    case "5":
-    case "5.5":
-    case "6":
      {
-      document.getElementById("grades1").innerHTML="Your Grade is E1";
-      break;
-     }
-    case "6.5":
-    case "7":
-    case "7.5":
-    case "8":
-    {
-     document.getElementById("grades1").innerHTML="Your Grade is D";
-      break;
-    }
-    case "8.5":
-    case "9":
-    case "9.5":
-    case "10":
-     {
-      document.getElementById("grades1").innerHTML="Your Grade is C2";
-      break;
-     }
-    case "10.5":
-    case "11":
-    case "11.5":
-    case "12":
-     {
-      document.getElementById("grades1").innerHTML="Your Grade is C1";
-      break;
-     }
-    case "12.5":
-    case "13":
-    case "13.5":
-    case "14":
-     {
-      document.getElementById("grades1").innerHTML= "Your Grade is B2";
-      break;
-     }
-    case "14.5":
-    case "15":
-    case "15.5":
-    case "16":
-    {
-      document.getElementById("grades1").innerHTML="Your Grade is B1";
-      break;
-    }
-    case "16.5":
-    case "17":
-    case "17.5":
-    case "18":
-     {
-      document.getElementById("grades1").innerHTML="Your Grade is A2";
+      document.getElementById("grades15").innerHTML="Your Grade is A2";
       break;
       }
-    case "18.5":
-    case "19":
-    case "19.5":
-    case "20":
+    case "5":
      {
-      document.getElementById("grades1").innerHTML= "Your Grade is A1";
+      document.getElementById("grades15").innerHTML= "Your Grade is A1";
       break;
      }
 
     default:
      {
-      document.getElementById("grades1").innerHTML="Invalid Input !!!!";
+      document.getElementById("grades15").innerHTML="Invalid Input !!!!";
       break;
     }
 }
 }
 
 //Maths
-function getgradestwo() {
-  var marks = document.getElementById("marksin3").value;
+function getgradestwo53() {
+  var marks = document.getElementById("marksin35").value;
   switch(marks)
 {
     case "0":
     case "0.5":
     case "1":
-    case "1.5":
-    case "2":
-    case "2.5":
-    case "3":
-    case "3.5":
-    case "4":
        {
-        document.getElementById("grades2").innerHTML="Your Grade is E1";
+        document.getElementById("grades25").innerHTML="Your Grade is E2";
         break;
        }
+    case "1.5":
+    case "1.6":
+     {
+      document.getElementById("grades25").innerHTML="Your Grade is E1";
+      break;
+     }
+    case "2":
+    {
+     document.getElementById("grades25").innerHTML="Your Grade is D";
+      break;
+    }
+    case "2.5":
+     {
+      document.getElementById("grades25").innerHTML="Your Grade is C2";
+      break;
+     }
+    case "3":
+     {
+      document.getElementById("grades25").innerHTML="Your Grade is C1";
+      break;
+     }
+    case "3.5":
+     {
+      document.getElementById("grades25").innerHTML= "Your Grade is B2";
+      break;
+     }
+    case "4":
+    {
+      document.getElementById("grades25").innerHTML="Your Grade is B1";
+      break;
+    }
     case "4.5":
-    case "5":
-    case "5.5":
-    case "6":
      {
-      document.getElementById("grades2").innerHTML="Your Grade is E1";
-      break;
-     }
-    case "6.5":
-    case "7":
-    case "7.5":
-    case "8":
-    {
-     document.getElementById("grades2").innerHTML="Your Grade is D";
-      break;
-    }
-    case "8.5":
-    case "9":
-    case "9.5":
-    case "10":
-     {
-      document.getElementById("grades2").innerHTML="Your Grade is C2";
-      break;
-     }
-    case "10.5":
-    case "11":
-    case "11.5":
-    case "12":
-     {
-      document.getElementById("grades2").innerHTML="Your Grade is C1";
-      break;
-     }
-    case "12.5":
-    case "13":
-    case "13.5":
-    case "14":
-     {
-      document.getElementById("grades2").innerHTML= "Your Grade is B2";
-      break;
-     }
-    case "14.5":
-    case "15":
-    case "15.5":
-    case "16":
-    {
-      document.getElementById("grades2").innerHTML="Your Grade is B1";
-      break;
-    }
-    case "16.5":
-    case "17":
-    case "17.5":
-    case "18":
-     {
-      document.getElementById("grades2").innerHTML="Your Grade is A2";
+      document.getElementById("grades25").innerHTML="Your Grade is A2";
       break;
       }
-    case "18.5":
-    case "19":
-    case "19.5":
-    case "20":
+    case "5":
      {
-      document.getElementById("grades2").innerHTML= "Your Grade is A1";
+      document.getElementById("grades25").innerHTML= "Your Grade is A1";
       break;
      }
 
     default:
      {
-      document.getElementById("grades2").innerHTML="Invalid Input !!!!";
+      document.getElementById("grades25").innerHTML="Invalid Input !!!!";
       break;
     }
 }
 }
 
 //S.S.T
-function getgradesthree() {
-  var marks = document.getElementById("marksin4").value;
+function getgradesthree54 {
+  var marks = document.getElementById("marksin45").value;
   switch(marks)
 {
     case "0":
     case "0.5":
     case "1":
-    case "1.5":
-    case "2":
-    case "2.5":
-    case "3":
-    case "3.5":
-    case "4":
        {
-        document.getElementById("grades3").innerHTML="Your Grade is E1";
+        document.getElementById("grades35").innerHTML="Your Grade is E2";
         break;
        }
+    case "1.5":
+    case "1.6":
+     {
+      document.getElementById("grades35").innerHTML="Your Grade is E1";
+      break;
+     }
+    case "2":
+    {
+     document.getElementById("grades35").innerHTML="Your Grade is D";
+      break;
+    }
+    case "2.5":
+     {
+      document.getElementById("grades35").innerHTML="Your Grade is C2";
+      break;
+     }
+    case "3":
+     {
+      document.getElementById("grades35").innerHTML="Your Grade is C1";
+      break;
+     }
+    case "3.5":
+     {
+      document.getElementById("grades35").innerHTML= "Your Grade is B2";
+      break;
+     }
+    case "4":
+    {
+      document.getElementById("grades35").innerHTML="Your Grade is B1";
+      break;
+    }
     case "4.5":
-    case "5":
-    case "5.5":
-    case "6":
      {
-      document.getElementById("grades3").innerHTML="Your Grade is E1";
-      break;
-     }
-    case "6.5":
-    case "7":
-    case "7.5":
-    case "8":
-    {
-     document.getElementById("grades3").innerHTML="Your Grade is D";
-      break;
-    }
-    case "8.5":
-    case "9":
-    case "9.5":
-    case "10":
-     {
-      document.getElementById("grades3").innerHTML="Your Grade is C2";
-      break;
-     }
-    case "10.5":
-    case "11":
-    case "11.5":
-    case "12":
-     {
-      document.getElementById("grades3").innerHTML="Your Grade is C1";
-      break;
-     }
-    case "12.5":
-    case "13":
-    case "13.5":
-    case "14":
-     {
-      document.getElementById("grades3").innerHTML= "Your Grade is B2";
-      break;
-     }
-    case "14.5":
-    case "15":
-    case "15.5":
-    case "16":
-    {
-      document.getElementById("grades3").innerHTML="Your Grade is B1";
-      break;
-    }
-    case "16.5":
-    case "17":
-    case "17.5":
-    case "18":
-     {
-      document.getElementById("grades3").innerHTML="Your Grade is A2";
+      document.getElementById("grades35").innerHTML="Your Grade is A2";
       break;
       }
-    case "18.5":
-    case "19":
-    case "19.5":
-    case "20":
+    case "5":
      {
-      document.getElementById("grades3").innerHTML= "Your Grade is A1";
+      document.getElementById("grades35").innerHTML= "Your Grade is A1";
       break;
      }
 
     default:
      {
-      document.getElementById("grades3").innerHTML="Invalid Input !!!!";
+      document.getElementById("grades35").innerHTML="Invalid Input !!!!";
       break;
     }
 }
 }
  
 //English
- function getgradesfour() {
-  var marks = document.getElementById("marksin5").value;
+ function getgradesfour55() {
+  var marks = document.getElementById("marksin55").value;
   switch(marks)
 {
     case "0":
     case "0.5":
     case "1":
-    case "1.5":
-    case "2":
-    case "2.5":
-    case "3":
-    case "3.5":
-    case "4":
        {
-        document.getElementById("grades4").innerHTML="Your Grade is E1";
+        document.getElementById("grades45").innerHTML="Your Grade is E2";
         break;
        }
+    case "1.5":
+    case "1.6":
+     {
+      document.getElementById("grades45").innerHTML="Your Grade is E1";
+      break;
+     }
+    case "2":
+    {
+     document.getElementById("grades45").innerHTML="Your Grade is D";
+      break;
+    }
+    case "2.5":
+     {
+      document.getElementById("grades45").innerHTML="Your Grade is C2";
+      break;
+     }
+    case "3":
+     {
+      document.getElementById("grades45").innerHTML="Your Grade is C1";
+      break;
+     }
+    case "3.5":
+     {
+      document.getElementById("grades45").innerHTML= "Your Grade is B2";
+      break;
+     }
+    case "4":
+    {
+      document.getElementById("grades45").innerHTML="Your Grade is B1";
+      break;
+    }
     case "4.5":
-    case "5":
-    case "5.5":
-    case "6":
      {
-      document.getElementById("grades4").innerHTML="Your Grade is E1";
-      break;
-     }
-    case "6.5":
-    case "7":
-    case "7.5":
-    case "8":
-    {
-     document.getElementById("grades4").innerHTML="Your Grade is D";
-      break;
-    }
-    case "8.5":
-    case "9":
-    case "9.5":
-    case "10":
-     {
-      document.getElementById("grades4").innerHTML="Your Grade is C2";
-      break;
-     }
-    case "10.5":
-    case "11":
-    case "11.5":
-    case "12":
-     {
-      document.getElementById("grades4").innerHTML="Your Grade is C1";
-      break;
-     }
-    case "12.5":
-    case "13":
-    case "13.5":
-    case "14":
-     {
-      document.getElementById("grades4").innerHTML= "Your Grade is B2";
-      break;
-     }
-    case "14.5":
-    case "15":
-    case "15.5":
-    case "16":
-    {
-      document.getElementById("grades4").innerHTML="Your Grade is B1";
-      break;
-    }
-    case "16.5":
-    case "17":
-    case "17.5":
-    case "18":
-     {
-      document.getElementById("grades4").innerHTML="Your Grade is A2";
+      document.getElementById("grades45").innerHTML="Your Grade is A2";
       break;
       }
-    case "18.5":
-    case "19":
-    case "19.5":
-    case "20":
+    case "5":
      {
-      document.getElementById("grades4").innerHTML= "Your Grade is A1";
+      document.getElementById("grades45").innerHTML= "Your Grade is A1";
       break;
      }
 
     default:
      {
-      document.getElementById("grades4").innerHTML="Invalid Input !!!!";
+      document.getElementById("grades45").innerHTML="Invalid Input !!!!";
       break;
     }
 }
