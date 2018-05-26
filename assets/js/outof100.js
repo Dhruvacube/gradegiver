@@ -51,7 +51,7 @@ function getgrades100() {
     case "19.5":
     case "20":
      {
-      document.getElementById("grades100").innerHTML= "Your Grade is E";
+      document.getElementById("grades100").innerHTML= "Your Grade is E2";
       break;
      }
     case "20.5":
@@ -290,7 +290,7 @@ function getgradesone100() {
     case "19.5":
     case "20":
      {
-      document.getElementById("grades1100").innerHTML= "Your Grade is E";
+      document.getElementById("grades1100").innerHTML= "Your Grade is E2";
       break;
      }
     case "20.5":
@@ -530,7 +530,7 @@ function getgradestwo100() {
     case "19.5":
     case "20":
      {
-      document.getElementById("grades2100").innerHTML= "Your Grade is E";
+      document.getElementById("grades2100").innerHTML= "Your Grade is E2";
       break;
      }
     case "20.5":
@@ -770,7 +770,7 @@ function getgradesthree100() {
     case "19.5":
     case "20":
      {
-      document.getElementById("grades3100").innerHTML= "Your Grade is E";
+      document.getElementById("grades3100").innerHTML= "Your Grade is E2";
       break;
      }
     case "20.5":
@@ -1009,7 +1009,7 @@ function getgradesfour100() {
     case "19.5":
     case "20":
      {
-      document.getElementById("grades4100").innerHTML= "Your Grade is E";
+      document.getElementById("grades4100").innerHTML= "Your Grade is E2";
       break;
      }
     case "20.5":
