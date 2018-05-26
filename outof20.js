@@ -19,7 +19,7 @@ function getgrades20() {
     case "3.5":
     case "4":
        {
-        document.getElementById("grades20").innerHTML="Your Grade is E1";
+        document.getElementById("grades20").innerHTML="Your Grade is E2";
         break;
        }
     case "4.5":
@@ -110,7 +110,7 @@ function getgrades20() {
     case "3.5":
     case "4":
        {
-        document.getElementById("grades120").innerHTML="Your Grade is E1";
+        document.getElementById("grades120").innerHTML="Your Grade is E2";
         break;
        }
     case "4.5":
@@ -201,7 +201,7 @@ function getgradestwo20() {
     case "3.5":
     case "4":
        {
-        document.getElementById("grades220").innerHTML="Your Grade is E1";
+        document.getElementById("grades220").innerHTML="Your Grade is E2";
         break;
        }
     case "4.5":
@@ -292,7 +292,7 @@ function getgradesthree20() {
     case "3.5":
     case "4":
        {
-        document.getElementById("grades320").innerHTML="Your Grade is E1";
+        document.getElementById("grades320").innerHTML="Your Grade is E2";
         break;
        }
     case "4.5":
@@ -383,7 +383,7 @@ function getgradesthree20() {
     case "3.5":
     case "4":
        {
-        document.getElementById("grades420").innerHTML="Your Grade is E1";
+        document.getElementById("grades420").innerHTML="Your Grade is E2";
         break;
        }
     case "4.5":
