@@ -5,7 +5,7 @@
 
 //JavaScript Code for marks out of 5
 //Science
-function getgrades51() {
+function getgradesfive() {
   var marks = document.getElementById("marksin15").value;
   switch(marks)
 {
@@ -67,7 +67,7 @@ function getgrades51() {
 }
  
 //Hindi
- function getgradesone52() {
+ function getgradesonefive() {
   var marks = document.getElementById("marksin25").value;
   switch(marks)
 {
@@ -129,7 +129,7 @@ function getgrades51() {
 }
 
 //Maths
-function getgradestwo53() {
+function getgradestwofive() {
   var marks = document.getElementById("marksin35").value;
   switch(marks)
 {
@@ -191,7 +191,7 @@ function getgradestwo53() {
 }
 
 //S.S.T
-function getgradesthree54 {
+function getgradesthreefive() {
   var marks = document.getElementById("marksin45").value;
   switch(marks)
 {
@@ -253,7 +253,7 @@ function getgradesthree54 {
 }
  
 //English
- function getgradesfour55() {
+ function getgradesfourfive() {
   var marks = document.getElementById("marksin55").value;
   switch(marks)
 {

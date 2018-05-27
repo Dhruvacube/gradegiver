@@ -3,7 +3,7 @@
   It shall not be copied without prior permission of the owner of the website. */  
 
 
-//JavaScript Code for marks out of 20
+//JavaScript Code for marks out of 10
 //Science
 function getgrades() {
   var marks = document.getElementById("marksin1").value;
