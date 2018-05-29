@@ -1,4 +1,4 @@
-# Dhruva Shaw website [Website](https://dhruvacube.github.io)
+# Dhruva Shaw GradeGiver [Website](https://dhruvacube.github.io)
 
 ![Dhruva Shaw Banner.](https://dhruvacube.github.io/images/Banner.jpg)
 
