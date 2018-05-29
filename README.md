@@ -4,7 +4,7 @@
 
 ## Description
 
-This is my website. I have created this website just for fun and also to get popularity among my friends also.
+This is GradeGiver. Which gives grades according to CBSE CCE system.
 
 
 **Owner and Hoster of this website**
