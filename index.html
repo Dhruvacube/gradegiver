@@ -1,5 +1,5 @@
-﻿  <!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html data-disable-interaction="1">
 <!--Made By Dhruva Shaw-->
 
 <head>
@@ -13,6 +13,8 @@
 <script language="JavaScript" src="assets/js/outof40.js"></script>
 <script language="JavaScript" src="assets/js/outof80.js"></script>
 <script language="JavaScript" src="assets/js/outof100.js"></script>
+<script language="JavaScript" src="assets/js/main.js"></script>
+<script language="JavaScript" src="assets/js/intro.js"></script>
 
                           <!--Html Tag Making it Responsive-->
                           <meta charset="utf-8">
@@ -23,12 +25,13 @@
 <!--Stylesheet link start-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="assets/css/main.css"/>
+<link rel="stylesheet" href="assets/css/introjs.css"/>
 <!--Ends-->
    
 <body>
 <div class="header">
 <h1>Grade Giver - (Dhruva Shaw)</h1>
-<p><strong>This is GradeGiver. Which gives grades according to CBSE CEE system.</strong></p>  
+<p><strong>This is GradeGiver. Which gives grades according to CBSE CCE system.</strong></p>  
 </div>
 
 <nav>
@@ -48,13 +51,79 @@
   <li><a href="https://dhruvacube.github.io/index.html">Home</a></li>
   <li>GradeGiver</li>
 </ul>
+<button onclick="javascript:introJs().setOption('showProgress', true).start();" class="btnright" href="javascript:void(0);" ><strong>Introduction</strong></button>
+<!--Modal Table -->
+<button onclick="document.getElementById('id01').style.display='block'" class="btnleft" datastep="3" data-intro="Here you get CCE Grading System Pattern." data-position='left'><strong>CCE Grading System</strong></button>
+<div id="id01" class="modal" style="overflow-x:auto;">
+<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal Table">&times;</span>
 
+<table class="modal-content animate" summary="This table is about the Scholastic or CCE Grading System">
+<caption><strong>CEE Grading System</strong></caption>
+<tr>
+<th id="marksrange">Marks Range</th>
+<th id="grade">Grade</th>
+</tr>
+
+<tr>
+<td headers="marksrange">90-100</td>
+<td headers="grade">A1</td>
+</tr>
+
+<tr>
+<td headers="marksrange">80-90</td>
+<td headers="grade">A2</td>
+</tr>
+
+<tr>
+<td headers="marksrange">70-80</td>
+<td headers="grade">B1</td>
+</tr>
+
+<tr>
+<td headers="marksrange">60-70</td>
+<td headers="grade">B2</td>
+</tr>
+
+<tr>
+<td headers="marksrange">50-60</td>
+<td headers="grade">C1</td>
+</tr>
+
+<tr>
+<td headers="marksrange">40-50</td>
+<td headers="grade">C2</td>
+</tr>
+
+<tr>
+<td headers="marksrange">32-40</td>
+<td headers="grade">D</td>
+</tr>
+
+<tr>
+<td headers="marksrange">20-32</td>
+<td headers="grade">E1</td>
+</tr>
+ 
+<tr>
+<td headers="marksrange">0-20</td>
+<td headers="grade">E1</td>
+</tr>
+<tr>
+<td><center>Till Grade D is considered to be pass, below it is fail.</center></td>
+</tr>
+ 
+</table> 
+</div>
+<!--Ends-->
+
+<br/><br/><br/><br/>
 <!--Marks Out of 5-->
+<div datastep="4" data-intro="Here you get grades, marks out of 5." data-position='bottom'>
 <h3>Marks Out of 5</h3>
 <hr></hr>
 <lable for="science">Science</lable>
-<input oninput="getgradesfive(this.value)" id="marksin15" type="number"/>
-<article id="grades5" class="gradedisplayer" style="padding: 10px;"></article>
+<input oninput="getgradesfive(this.value)" id="marksin15" type="number" datastep="1" data-intro="Here you enter your marks." data-position='right' />
+<article id="grades5" class="gradedisplayer" style="padding: 10px;" datastep="2" data-intro="Here you get your grades." data-position='left'></article>
 <hr class="hr"></hr>
 <br/><br/>
 
@@ -79,13 +148,14 @@
 <lable for="english">English</lable>&nbsp
 <input oninput="getgradesfourfive(this.value)" id="marksin55" type="number"/>
 <article id="grades45" class="gradedisplayer" style="padding: 10px;"></article>
-
+</div>
 <br/><br/>
 <hr></hr>
 
 
 <!--Marks Out of 10-->
 <br/><br/><br/>
+<div datastep="5" data-intro="Here you get grades, marks out of 10." data-position='bottom'>
 <h3>Marks Out of 10</h3>
 <hr></hr>
 <lable for="science">Science</lable>
@@ -115,12 +185,13 @@
 <lable for="english">English</lable>&nbsp
 <input oninput="getgradesfour(this.value)" id="marksin5" type="number"/>
 <article id="grades4" class="gradedisplayer" style="padding: 10px;"></article>
-
+</div>
 <hr></hr>
 
 
 <!--Marks Out of 20-->
 <br/><br/><br/>
+<div datastep="6" data-intro="Here you get grades, marks out of 20." data-position='bottom'>
 <h3>Marks Out of 20</h3>
 <hr></hr>
 <lable for="science">Science</lable>
@@ -150,11 +221,12 @@
 <lable for="english">English</lable>&nbsp
 <input oninput="getgradesfour20(this.value)" id="marksin520" type="number"/>
 <article id="grades420" class="gradedisplayer" style="padding: 10px;"></article>
-
+</div>
 <hr></hr>
 
 <!--Marks Out of 40-->
 <br/><br/><br/>
+<div datastep="7" data-intro="Here you get grades, marks out of 40." data-position='bottom'>
 <h3>Marks Out of 40</h3>
 <hr></hr>
 <lable for="science">Science</lable>
@@ -184,11 +256,12 @@
 <lable for="english">English</lable>&nbsp
 <input oninput="getgradesfour40(this.value)" id="marksin540" type="number"/>
 <article id="grades440" class="gradedisplayer" style="padding: 10px;"></article>
-
+</div>
 <hr></hr>
 
 <!--Marks Out of 80-->
 <br/><br/><br/>
+<div datastep="8" data-intro="Here you get grades, marks out of 80." data-position='bottom'>
 <h3>Marks Out of 80</h3>
 <hr></hr>
 <lable for="science">Science</lable>
@@ -218,11 +291,12 @@
 <lable for="english">English</lable>&nbsp
 <input oninput="getgradesfour80(this.value)" id="marksin580" type="number"/>
 <article id="grades480" class="gradedisplayer" style="padding: 10px;"></article>
-
+</div>
 <hr></hr>
 
 <!--Marks Out of 100-->
 <br/><br/><br/>
+<div datastep="9" data-intro="Here you get grades, marks out of 100." data-position='auto'>
 <h3>Marks Out of 100</h3>
 <hr></hr>
 <lable for="science">Science</lable>
@@ -252,7 +326,7 @@
 <lable for="english">English</lable>&nbsp
 <input oninput="getgradesfour100(this.value)" id="marksin5100" type="number"/>
 <article id="grades4100" class="gradedisplayer" style="padding: 10px;"></article>
-
+</div>
 <hr></hr>
 
 
@@ -260,7 +334,7 @@
 
 <!-- Footer -->
 <footer>
-<div class="footer">
+<div class="footer" datastep="4" data-intro="And don't forget to follow me on my social media handles." data-position='top'>
 
 <div class="footerleft">
 <p style="color:Black; font-size: 30 px;"><b>Dhruva Shaw</b><b>&nbsp <i class="fa fa-heart" style="color: black"></i></b></p>			

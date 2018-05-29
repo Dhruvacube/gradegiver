@@ -63,67 +63,71 @@ body {
 
 /* Style the top navigation links */
 .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+           float: left;
+           display: block;
+           color: #f2f2f2;
+           text-align: center;
+           padding: 14px 16px;
+           text-decoration: none;
+          }
 
 /* Change top navigation links color on hover */
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
+                 background-color: #ddd;
+                 color: black;
+                }
 
 /* Footer */
 .footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
-    overflow: auto;
-}
+         padding: 20px;
+         text-align: center;
+         background: #ddd;
+         margin-top: 20px;
+         overflow: auto;
+        }
 
-.footerleft { float: left; }
-.footerright { float: right; }
+.footerleft { 
+             float: left; 
+			}
+.footerright { 
+              float: right; 
+			 }
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {   
-        width: 100%;
-        padding: 0;
-    }
-}
+                                      .leftcolumn, .rightcolumn {   
+                                                                  width: 100%;
+                                                                  padding: 0;
+                                                                }
+                                     }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
-    .topnav a {
-        float: none;
-        width: 100%;
-    }
-}
+                                      .topnav a {
+                                                 float: none;
+                                                 width: 100%;
+                                                }
+                                     }                                   
 
 /*Breadcrumbs Navigation*/
 /* Style the list */
 ul.breadcrumb {
-    padding: 10px 16px;
-    list-style: none;
-    background-color: #eee;
-}
+               padding: 10px 16px;
+               list-style: none;
+               background-color: #eee;
+              }
 
 /* Display list items side by side */
 ul.breadcrumb li {
-    display: inline;
-    font-size: 18px;
-}
+                  display: inline;
+                  font-size: 18px;
+                 }
 
 /* Add a slash symbol (/) before/behind each list item */
 ul.breadcrumb li+li:before {
                              padding: 8px;
-    color: black;
-    content: "/\00a0";
-}
+                             color: black;
+                             content: "/\00a0";
+                           }
 
 /* Add a color to all links inside the list */
 ul.breadcrumb li a {
@@ -169,7 +173,7 @@ ul.breadcrumb li a:hover {
 /*Styling Grade Displayer */
 .gradedisplayer {
 	            float: right;
-               }
+                }
           input{ 
                 width: 44%;
                 padding: 12px;
@@ -210,4 +214,129 @@ h3 {
 										font-size: 30px;
 									   }
                                     }
+
+/* The Modal (background) */
+.modal {
+        display: none; 
+        position: fixed; 
+        z-index: 1; 
+        left: 0;
+        top: 0;
+        width: 100%; 
+        height: 100%; 
+        overflow: auto; 
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0,0.4); 
+        padding-top: 60px;
+       }
+
+/* Modal Content/Box */
+.modal-content {
+                 background-color: #fefefe;
+                 margin: 5px auto; /* 15% from the top and centered */
+                 border: 1px solid #888;
+                 width: 80%; /* Could be more or less, depending on screen size */
+               }
+
+/* The Close Button */
+.close {
+        position: absolute;
+        right: 25px;
+        top: 0; 
+        color: #000;
+        font-size: 35px;
+        font-weight: bold;
+       }
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+              color: red;
+              cursor: pointer;
+             }
+
+/* Add Zoom Animation */
+.animate {
+          -webkit-animation: animatezoom 0.6s;
+           animation: animatezoom 0.6s
+         }
+
+@-webkit-keyframes animatezoom {
+                                 from {
+									   -webkit-transform: scale(0)
+									  } 
+                                 to {
+									 -webkit-transform: scale(1)
+									}
+                               }
+
+@keyframes animatezoom {
+                         from {
+							   transform: scale(0)
+							  } 
+                         to {
+							 transform: scale(1)
+							}
+                       }
+
+/* Bordered table */
+table {
+       border: 3px solid #f1f1f1;
+	   border-collapse: collapse;
+       border-spacing: 0;
+       width: 100%;
+       border: 1px solid #ddd;
+       }
+
+/* Set a style for all buttons */
+.btnleft {
+        background-color: Black;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 48%;
+		float: right;
+       }
+
+/* Add a hover effect for buttons */
+button:hover {
+               opacity: 0.8;
+             }
+
+
+tr:nth-child(even) {
+                    background-color: #f2f2f2
+                   }
+
+th, td {
+         padding: 15px;
+         text-align: left;
+		 font-weight: bold;
+       }
+
+@media screen and (max-width: 300px) {
+                                      span.psw {
+                                                display: block;
+                                                float: none;
+
+                                               }
+                                     }
+									 
+caption {
+          padding: 15px;
+          color: white;
+          background-color: black;	  
+        }
+.btnright {
+           background-color: Black;
+           color: white;
+           padding: 14px 20px;
+           margin: 8px 0;
+           border: none;
+           cursor: pointer;
+           width: 50%;
+		   float: left;
+          }
 
