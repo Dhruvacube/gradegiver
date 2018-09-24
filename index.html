@@ -1,18 +1,20 @@
 ﻿<!DOCTYPE html>
-<html data-disable-interaction="1">
+<html>
 <!--Made By Dhruva Shaw-->
 
 <head>
-<title>GradeGiver - (Dhruva Shaw)</title>
-<link rel="shortcut icon" type="image/icon" href="https://dhruvacube.github.io/images/favicon.ico" />
+<title>GradeGiver</title>
+<link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico" />
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TKQXGT6');</script>
-<!-- End Google Tag Manager -->
+        <meta name="robots" content="noimageindex, noarchive">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content="#000000">
+
+                          <!--Html Tag Making it Responsive-->
+                          <meta charset="utf-8" name="charset">
+                          <meta http-equiv="X-UA-Compatible" content="IE=edge" name="IE Content">
+                          <meta name="viewport" content="width=device-width, initial-scale=1">
+                          <!--End html tag-->
 
 </head>
 
@@ -20,36 +22,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script language="JavaScript" src="assets/js/outof10.js"></script>
 <script language="JavaScript" src="assets/js/outof20.js"></script>
 <script language="JavaScript" src="assets/js/outof40.js"></script>
+<script language="JavaScript" src="assets/js/outof60.js"></script>
 <script language="JavaScript" src="assets/js/outof80.js"></script>
 <script language="JavaScript" src="assets/js/outof100.js"></script>
 <script language="JavaScript" src="assets/js/main.js"></script>
 <script language="JavaScript" src="assets/js/intro.js"></script>
 
                           <!--Html Tag Making it Responsive-->
-                          <meta charset="utf-8">
-                          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                          <meta charset="utf-8" name="charset">
+                          <meta http-equiv="X-UA-Compatible" content="IE=edge" name="IE Content">
                           <meta name="viewport" content="width=device-width, initial-scale=1">
                           <!--End html tag-->
 
 <!--Stylesheet link start-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="assets/css/main.css"/>
+<link rel="stylesheet" href="assets/css/icons/main.css"/>
 <link rel="stylesheet" href="assets/css/introjs.css"/>
 <!--Ends-->
    
-<body>
+<body onkeydown="sourceaccess(event)">
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKQXGT6"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 
 
 
 <div class="header">
-<h1>Grade Giver - (Dhruva Shaw)</h1>
+<h1>GradeGiver</h1>
+<h2>GradeGiver</h2>
 <p><strong>This is GradeGiver. Which gives grades according to CBSE CCE system.</strong></p>  <br/>
-<strong style="float: right;">v 1.0</strong>
+<strong style="float: right;">v 1.5</strong>
 </div>
 
 <nav>
@@ -69,11 +71,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <li><a href="https://dhruvacube.github.io/index.html">Home</a></li>
   <li>GradeGiver</li>
 </ul>
-<button onclick="javascript:introJs().setOption('showProgress', true).start();" class="btnright" href="javascript:void(0);" ><strong>Introduction</strong></button>
-<!--Modal Table -->
-<button onclick="document.getElementById('id01').style.display='block'" class="btnleft" datastep="3" data-intro="Here you get CCE Grading System Pattern." data-position='left'><strong>CCE Grading System</strong></button>
-<div id="id01" class="modal" style="overflow-x:auto;">
-<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal Table">&times;</span>
+<button onclick="javascript:introJs().setOption('showProgress', true).start();" class="btnleft" href="javascript:void(0);" ><strong>Introduction</strong></button>
+<button onclick="document.getElementById('modaltable').style.display='block'" class="btnright" datastep="3" data-intro="Here you get CCE Grading System Pattern." data-position='left'><strong>CCE Grading System</strong></button>
+<br/>
+
+<center><a href="https://errorreportgradegiver.000webhostapp.com/"><button  class="btnerror" datastep="4" data-intro="Here you can report error." data-position='left'> <strong>Report Error !!!!</strong></button></center></a><br/>
+
+
+
+<!--Modal Table-->
+<div id="modaltable" class="modal" style="overflow-x:auto;">
+<span onclick="document.getElementById('modaltable').style.display='none'" class="close" title="Close The Modal Table">&times;</span>
 
 <table class="modal-content animate" summary="This table is about the Scholastic or CCE Grading System">
 <caption><strong>CEE Grading System</strong></caption>
@@ -135,13 +143,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--Ends-->
 
 <!--Scroll to top button -->
-<i class="fa fa-chevron-circle-up" onclick="topFunction()" id="myBtn" title="Go to top"></i>
+<img src="assets/images/svg/arrow-up.svg"  id="top" onclick="topFunction()" title"Go to Top" alt="Go to Top""></img>
 <!--Ends-->
 
 
-<br/><br/><br/><br/>
+
 <!--Marks Out of 5-->
-<div datastep="4" data-intro="Here you get grades, marks out of 5." data-position='bottom'>
+
+
+<div class="getgrades">
+<div datastep="6" data-intro="Here you get grades, marks out of 5." data-position='bottom'>
+<br/>
 <h3>Marks Out of 5</h3>
 <hr></hr>
 <lable for="science">Science</lable>
@@ -171,14 +183,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <lable for="english">English</lable>&nbsp
 <input oninput="getgradesfourfive(this.value)" id="marksin55" type="number"/>
 <article id="grades45" class="gradedisplayer" style="padding: 10px;"></article>
-</div>
+<br/><br/>
 <br/><br/>
 <hr></hr>
+</div>
 
 
 <!--Marks Out of 10-->
 <br/><br/><br/>
-<div datastep="5" data-intro="Here you get grades, marks out of 10." data-position='bottom'>
+<div datastep="7" data-intro="Here you get grades, marks out of 10." data-position='bottom'>
+<br/>
 <h3>Marks Out of 10</h3>
 <hr></hr>
 <lable for="science">Science</lable>
@@ -208,13 +222,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <lable for="english">English</lable>&nbsp
 <input oninput="getgradesfour(this.value)" id="marksin5" type="number"/>
 <article id="grades4" class="gradedisplayer" style="padding: 10px;"></article>
-</div>
+<br/><br/>
 <hr></hr>
+</div>
 
 
 <!--Marks Out of 20-->
 <br/><br/><br/>
-<div datastep="6" data-intro="Here you get grades, marks out of 20." data-position='bottom'>
+<div datastep="8" data-intro="Here you get grades, marks out of 20." data-position='bottom'>
+<br/>
 <h3>Marks Out of 20</h3>
 <hr></hr>
 <lable for="science">Science</lable>
@@ -244,12 +260,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <lable for="english">English</lable>&nbsp
 <input oninput="getgradesfour20(this.value)" id="marksin520" type="number"/>
 <article id="grades420" class="gradedisplayer" style="padding: 10px;"></article>
-</div>
+<br/><br/>
 <hr></hr>
+</div>
+
 
 <!--Marks Out of 40-->
 <br/><br/><br/>
-<div datastep="7" data-intro="Here you get grades, marks out of 40." data-position='bottom'>
+<div datastep="9" data-intro="Here you get grades, marks out of 40." data-position='bottom'>
+<br/>
 <h3>Marks Out of 40</h3>
 <hr></hr>
 <lable for="science">Science</lable>
@@ -279,12 +298,54 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <lable for="english">English</lable>&nbsp
 <input oninput="getgradesfour40(this.value)" id="marksin540" type="number"/>
 <article id="grades440" class="gradedisplayer" style="padding: 10px;"></article>
+<br/><br/>
 </div>
 <hr></hr>
 
+
+
+<!--Marks Out of 60-->
+<br/><br/><br/>
+<div datastep="9" data-intro="Here you get grades, marks out of 60." data-position='bottom'>
+<br/>
+<h3>Marks Out of 60</h3>
+<hr></hr>
+<lable for="science">Science</lable>
+<input oninput="getgrades60(this.value)" id="marksin160" type="number"/>
+<article id="grades60" class="gradedisplayer" style="padding: 10px;"></article>
+<hr class="hr"></hr>
+<br/><br/>
+
+<lable for="hindi">Hindi</lable>&nbsp&nbsp&nbsp&nbsp&nbsp
+<input oninput="getgradesone60(this.value)" id="marksin260" type="number"/>
+<article id="grades160" class="gradedisplayer" style="padding: 10px;"></article>
+<hr class="hr"></hr>
+<br/><br/> 
+
+<lable for="maths">Maths</lable>&nbsp&nbsp&nbsp&nbsp
+<input oninput="getgradestwo60(this.value)" id="marksin360" type="number"/>
+<article id="grades260" class="gradedisplayer" style="padding: 10px;"></article>
+<hr class="hr"></hr>
+<br/><br/>
+
+<lable for="S.S.T">S.S.T</lable>&nbsp&nbsp&nbsp&nbsp&nbsp
+<input oninput="getgradesthree60(this.value)" id="marksin460" type="number"/>
+<article id="grades360" class="gradedisplayer" style="padding: 10px;"></article>
+<hr class="hr"></hr>
+<br/><br/>
+
+<lable for="english">English</lable>&nbsp
+<input oninput="getgradesfour60(this.value)" id="marksin560" type="number"/>
+<article id="grades460" class="gradedisplayer" style="padding: 10px;"></article>
+<br/><br/>
+<hr></hr>
+</div>
+
+
 <!--Marks Out of 80-->
 <br/><br/><br/>
-<div datastep="8" data-intro="Here you get grades, marks out of 80." data-position='bottom'>
+<div datastep="10" data-intro="Here you get grades, marks out of 80." data-position='bottom'>
+<br/>
 <h3>Marks Out of 80</h3>
 <hr></hr>
 <lable for="science">Science</lable>
@@ -314,12 +375,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <lable for="english">English</lable>&nbsp
 <input oninput="getgradesfour80(this.value)" id="marksin580" type="number"/>
 <article id="grades480" class="gradedisplayer" style="padding: 10px;"></article>
+<br/><br/>
 </div>
 <hr></hr>
 
+
+
 <!--Marks Out of 100-->
 <br/><br/><br/>
-<div datastep="9" data-intro="Here you get grades, marks out of 100." data-position='auto'>
+<div datastep="11" data-intro="Here you get grades, marks out of 100." data-position='auto'>
+<br/>
 <h3>Marks Out of 100</h3>
 <hr></hr>
 <lable for="science">Science</lable>
@@ -349,18 +414,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <lable for="english">English</lable>&nbsp
 <input oninput="getgradesfour100(this.value)" id="marksin5100" type="number"/>
 <article id="grades4100" class="gradedisplayer" style="padding: 10px;"></article>
+<br/><br/>
 </div>
 <hr></hr>
+</div>
 
 
 </body>
 
 <!-- Footer -->
-<footer>
-<div class="footer" datastep="4" data-intro="And don't forget to follow me on my social media handles." data-position='top'>
+<footer  datastep="12" data-intro="And don't forget to follow me on my social media handles." data-position='top' id="footer">
+<div class="footer">
 
 <div class="footerleft">
-<p style="color:Black; font-size: 30 px;"><b>Dhruva Shaw</b><b>&nbsp <i class="fa fa-heart" style="color: black"></i></b></p>			
+<p style="color:Black;"><b>Dhruva Shaw</b>
+                                        </a>   <b>&nbsp<i class="fa fa-heart" style="color: black"></i></b></p>			
 </div> 
 
 <div class="footerright">
@@ -368,9 +436,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <a href="https://github.com/Dhruvacube" target="_blank" class="fa fa-github"></a>
 <a href="https://dhruvacube.github.io/Dhruva_Shaw_Youtube_Channel_Direct.html" target="_blank" class="fa fa-youtube"></a>
 </div>
-
-
-</div></footer>
+</div>
+</footer>
 <!--Ends-->
  <!--Made By Dhruva Shaw-->
 
