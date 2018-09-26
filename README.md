@@ -1,4 +1,4 @@
-# GradeGiver #v1.0 [Website](https://dhruvacube.github.io)
+# GradeGiver #v1.5 [Website](https://dhruvacube.github.io)
 
 ![Dhruva Shaw Banner.](https://dhruvacube.github.io/images/Banner.jpg)
 
